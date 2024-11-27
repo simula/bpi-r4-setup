@@ -4,4 +4,4 @@ This repository contains documentation and code regarding the Banana Pi BPI-R4. 
 
 As of today, experiments based on the Banana Pi BPI-R4 are in a very early stage. Simula has not published any works that refer to experimental results based on the BPI-R4-platform.
 
-For the time being, the wiki serves as small, non-structured knowledgebase: It refers to resources that are relevant for prototyping the BPI-R4. 
+For the time being, the (wiki)[https://github.com/simula/bpi-r4-setup/edit/main/README.md] serves as small, non-structured knowledgebase: It refers to resources that are relevant for prototyping the BPI-R4. 
