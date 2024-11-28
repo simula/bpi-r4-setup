@@ -1,0 +1,28 @@
+Banana-pi notes on TFT display
+
+https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install-2
+
+cd ~
+sudo apt-get update
+sudo apt-get install -y git python3-pip
+pip3 install --upgrade adafruit-python-shell click
+git clone https://github.com/adafruit/Raspberry-Pi-Installer-Scripts.git
+cd Raspberry-Pi-Installer-Scripts
+
+“Console Mode” Install Commands
+If you just want a Linux text console to appear on the display, use one of the following commands:
+
+For the Mini PiTFT 1.3", BrainCraft HAT, 1.3" Color TFT Bonnet, or 1.5" Display, use the following command:
+ Copy Text
+sudo -E env PATH=$PATH python3 adafruit-pitft.py --display=st7789_240x240 --rotation=0 --install-type=console
+
+For the Mini PiTFT 1.14" Display, use the following command:
+sudo -E env PATH=$PATH python3 adafruit-pitft.py --display=st7789_240x135 --rotation=270 --install-type=console
+
+For an interactive install, you can just run the script without any options:
+sudo -E env PATH=$PATH python3 adafruit-pitft.py
+
+
+
+
+
